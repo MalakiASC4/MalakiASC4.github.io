@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Malaki Elijah Martin Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
+<link rel="stylesheet" href="main.css">
+
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDcGCna1Yhja49DK8pjcwAKxgKl4BaeU_E",
+    authDomain: "connection-emails.firebaseapp.com",
+    databaseURL: "https://connection-emails.firebaseio.com",
+    projectId: "connection-emails",
+    storageBucket: "",
+    messagingSenderId: "817273116040"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<!--Fonts  -->
+
+<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display|Bungee+Inline|Bungee+Hairline" rel="stylesheet">
+
+<!--Icon  -->
+
+<link rel="shortcut icon"
+     href="Assets/favicon.ico" />
+</head>
+<body>
+    <div class="container">
+
+      <!--Begin of Navbar  -->
+
+        <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Connections and All That -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a target="_blank" href="https://www.linkedin.com/in/malaki-m-2b6892132/" style="color:#E9D460;font-family: 'Bungee Inline', cursive;font-size:12px">👔LinkedIn</a></li>
+        <li><a target="_blank" href="https://www.facebook.com/malakiop" style="color:#E9D460;font-family: 'Bungee Inline', cursive;font-size:12px">📘Facebook</a></li>
+        <li><a target="_blank" href="https://www.roblox.com/users/31031292/profile" style="color:#E9D460;font-family: 'Bungee Inline', cursive;font-size:12px">🎮Roblox(Spend <Some></Some> Free Time w/ Me)</a></li>  
+        <li><p style="color:gold">🔌Connect With Me🔌---></p></li>
+  <li><input id="email" type="text" placeholder="Enter Email"></li>
+  <li><input id="name" type="text" placeholder="Enter Your Name"></li>
+  <input type="button" onclick="save()" value="Submit"></li>
+  <h4 style="color:red;padding-left:500px;font-family: 'Bungee Hairline', cursive;"></h4>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" class="css">      
+    </div>
+  </div>
+
+<!--Navbar Initial Info  -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-4">
+            <h1 class="pulsate" style="color:#E9D460; padding-left:30px;text-shadow: 1px 2px#03C9A9;font-family: 'Sedgwick Ave Display', cursive;">Malaki Elijah Martin</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-4"><img src="Assets/self.jpg" alt="..." class="img-circle" style="
+    padding-left: 105px;">
+        </div>
+    </div>
+</div>
+<h1 class="col-md-6 col-md-offset-4" style="padding-left: 50px;color:#E9D460;text-shadow: 1px 1px #03C9A9;font-family: 'Sedgwick Ave Display', cursive;
+">A Gent Saying Hello</h1>
+
+<!--Music  -->
+
+<p class="col-md-6 col-md-offset-4" style="padding-left: 50px;color:#E9D460;font-family: 'Sedgwick Ave Display', cursive;
+">Listen To Some Chill Music While Exploring The Page</p>
+<div class="container-fluid audioCenter">
+            <audio controls>
+                 <source src="Assets/willywonka.mp3" 
+                     type="audio/mpeg"></audio>
+            </div>
+
+<!--Questions  -->
+
+<div class="Questions">
+  <h6 style="padding-left:0px;color:#E9D460;text-shadow: 1px 1px #03C9A9"></h6>
+  <h7 style="padding-left:0px;color:#E9D460;text-shadow: 1px 1px #03C9A9"></h7>
+  </div>
+<div class="Questions">
+  <h11 style="padding-top:100px;color:#E9D460;text-shadow: 1px 1px #03C9A9">The Correct Answer is...</h11>
+  <input type="button" onclick="results()" value="Reveal"></li>
+</div>
+</div>
+
+<!--End Of Navbar  -->
+
+<!--About Me  -->
+
+<div class="col-md-6 col-md-offset-4">
+  <h1 style="color:#E9D460;text-shadow: 1px 1px #03C9A9
+;font-family: 'Bungee Inline', cursive;"> A Video I Was In When I Was Younger :D </h1>
+    <iframe width="560" height="315"class="center"src="https://www.youtube.com/embed/nBnYsujYPf4?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+<div>
+    <h1 class="col-md-6 col-md-offset-4" style="padding-left: 165px;color:#E9D460;text-shadow: 1px 1px #03C9A9;font-family: 'Bungee Inline', cursive;">About Me</h1>
+</div>
+
+<p class="col-md-6 col-md-offset-3 cheese">My Full Name is Malaki Elijah Martin. I was born May 29,2000; Thusly making me 17 years of age. I attend Bronx Engineering and Technology Academy and am entering my Senior Year. In addition, I am currently learning Coding Languages and Networking Skills in a program called All Star Code.</p>
+
+<div class="col-md-6 col-md-offset-4">
+            <h1 class="pulsate" style="color:#E9D460; padding-left:150px;text-shadow: 2px 2px #03C9A9;font-family: 'Bungee Inline', cursive;">Projects</h1>
+        </div>
+
+<!--End of About Me  -->
+
+<!--Project Thumbnails  -->
+
+<div class="container">
+<div class="row">
+  <div class="col-sm-3 col-md-4">
+    <div class="thumbnail" background-color:"transparent">
+      <img src="Assets/fantimelinescreenshot.png" alt="...">
+      <div class="caption">
+        <h3>Akira Toriyama Fan Page</h3>
+        <p>My Fan Timeline Page for my favorite animator, Akira Toriyama. The Creator Dr.Slump, Chrono Trigger, and (Most Famously) Dragon Ball</p>
+        <p><a target="_blank"
+          href="https://cdn.rawgit.com/MalakiASC4/MalakiASC/af2b896f/malaki-fantimeline/index.html" class="btn btn-primary" role="button">To The Page!</a>
+        <p><a target="_blank"
+          href="https://github.com/MalakiASC4/MalakiASC/tree/master/malaki-fantimeline" class="btn btn-default" role="button">To the Github Code</a></p>
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-sm-3 col-md-4">
+    <div class="thumbnail">
+      <img src="Assets/spaceinvadersgame.png" alt="...">
+      <div class="caption">
+        <h3>My Mock Space Invaders Game</h3>
+        <p>This Mock Space Invaders game is made mostly with Javascript and the tiniest bit of HTML to run it.</p>
+        <p><a target="_blank"
+          href="https://cdn.rawgit.com/MalakiASC4/MalakiASC/af2b896f/malaki-spaceinvaders/invading.html" class="btn btn-primary" role="button">To The Game!</a>
+          <p><a target="_blank"
+          href="https://github.com/MalakiASC4/MalakiASC/tree/master/malaki-spaceinvaders" class="btn btn-default" role="button">To the Github Code</a></p>
+        </div>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-sm-3 col-md-4">
+    <div class="thumbnail">
+      <img src="Assets/sitecopy.jpg" alt="...">
+      <div class="caption">
+        <h3>My Attempt To Copy The Roblox.com Website</h3>
+        <p>This project wasnt as successful,due to a time restraint. However, im still working on it and updating the image.   :3 </p>
+        <p><a target="_blank"
+          href="https://cdn.rawgit.com/MalakiASC4/MalakiASC/af2b896f/malaki-sitecopy/index.html" class="btn btn-primary" role="button">To The Picture!</a>
+          <p><a target="_blank"
+          href="https://github.com/MalakiASC4/MalakiASC/tree/master/malaki-sitecopy" class="btn btn-default" role="button">To the Github Code</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End of Project Thumbnails  -->
+
+
+<!--Github Repo Box  -->
+</div>
+<div class="jumbotron">
+    <div id="w">
+        <h1>My GitHub Repos</h1>
+        <p></p>
+
+       <a href="#" id="ghsubmitbtn">
+            <button>My Github</button>
+        </a>
+
+       <div id="ghapidata" class="clearfix"></div>
+    </div>
+</div>
+
+<!--End Of Github Box  -->
+
+<h1 style="padding-left:325px;color:#E9D460;text-shadow: 1px 1px #03C9A9;font-family: 'Sedgwick Ave Display', cursive;">Site Made By Malaki Elijah Martin</h1>
+<p style="padding-left:550px;color:#E9D460;text-shadow: 2px 2px #03C9A9">M3M0™️</p>
+<img class="heart"src="Assets/SteamPunk Heart.gif"/>
+
+</body>
+</html>
